@@ -1,0 +1,28 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+  background-color:  #FBFBFD;
+}
+h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+background-color:  #FBFBFD;
+}
+.list-item{
+  width: 544px;
+  height: 66px;
+  border: 1px solid black;
+  padding-top: 21px;
+  border-radius: 5px 50px 30px 5px;
+}

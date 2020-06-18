@@ -1,0 +1,74 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+  background-color:  #FBFBFD;
+}
+h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+background-color:  #FBFBFD;
+}
+
+button{
+    color: #fff;
+    width: 148px;
+    height: 48px;
+    background: #61AD15;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
+    border: none;
+}
+
+button:disabled{
+  background: #A8ACBC;
+  border: none;
+}
+
+.list-item{
+  width: 544px;
+  height: 66px;
+  border: 1px solid #E7E9F0;
+  padding-top: 21px;
+  box-shadow: inset 0px -1px 0px #DEE0E8;
+}
+
+  inputBox: {
+    height: "62px",
+    border: "1px solid black",
+    paddingTop: "22px"
+  }
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid #61AD15;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  border-radius: 16px;
+  background-color: #61AD15;
+}
